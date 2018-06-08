@@ -4,13 +4,11 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import org.usfirst.frc.team3452.robot.commands.auton.Auton;
-import org.usfirst.frc.team3452.robot.subsystems.Camera;
 import org.usfirst.frc.team3452.robot.subsystems.Drivetrain;
 import org.usfirst.frc.team3452.robot.subsystems.Elevator;
 
 public class Robot extends TimedRobot {
     public static final Drivetrain drive = new Drivetrain();
-    public static final Camera camera = new Camera();
     public static final Elevator elevator = new Elevator();
 
     public static OI _oi;

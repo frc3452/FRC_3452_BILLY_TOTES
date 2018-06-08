@@ -19,7 +19,7 @@ public class OI {
 	public static void init() {
 		buttonInit();
 
-		// DRIVER JOY
+        /* DRIVER JOY */
 		driverJoyLB.whenPressed(new ResetGyro());
 		driverJoyRB.whenPressed(new ToggleRelative(-1));
 

@@ -7,7 +7,7 @@ import org.usfirst.frc.team3452.robot.OI;
 
 public class Elevator extends Subsystem {
 
-	Jaguar Elev1, Elev2;
+    private Jaguar Elev1, Elev2;
 
 	public void initHardware() {
 		Elev1 = new Jaguar(Constants.ELEVATOR_1);
